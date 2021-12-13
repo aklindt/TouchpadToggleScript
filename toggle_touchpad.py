@@ -2,7 +2,8 @@ import os
 from gi.repository import Notify
 Notify.init ("Touchpad")
 
-id = os.popen("xinput --list --id-only 'ETPS/2 Elantech Touchpad'").read()
+# id = os.popen("xinput --list --id-only 'ETPS/2 Elantech Touchpad'").read()
+id = os.popen("xinput --list --id-only 'AlpsPS/2 ALPS GlidePoint'").read()
 
 if(os.path.isfile("/tmp/touchpad")):
    f = open("/tmp/touchpad", "r+")
