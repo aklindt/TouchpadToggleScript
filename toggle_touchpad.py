@@ -1,3 +1,7 @@
+# Script originally written by leoomi
+# https://github.com/leoomi/TouchpadToggleScript
+# I only modified it, so it works on a Dell Latitude E5440
+
 import os
 from gi.repository import Notify
 Notify.init ("Touchpad")
